@@ -1,14 +1,14 @@
 //Index Accessing - 1 by 1
-var word = "wow JavaScript is so cool"
+var word2 = "wow JavaScript is so cool"
 //012 3 45678910111213 14 1516 17 1819 20 21222324
-var exampleWord = word[0] + word[1] + word[2]
-var secondWord = word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word[10] + word[11] + word[12] + word[13]
-var thirdWord = word[15] + word[16]
-var fourthWord = word[18] + word[19]
-var fifthWord = word[21] + word[22] + word[23] + word[24]
+var exampleWord2 = word2[0] + word2[1] + word2[2]
+var secondWord2 = word2[4] + word2[5] + word2[6] + word2[7] + word2[8] + word2[9] + word2[10] + word2[11] + word2[12] + word2[13]
+var thirdWord2 = word2[15] + word2[16]
+var fourthWord2 = word2[18] + word2[19]
+var fifthWord2 = word2[21] + word2[22] + word2[23] + word2[24]
 
-console.log('First Word: ' + exampleWord)
-console.log('First Word: ' + secondWord)
-console.log('Third Word: ' + thirdWord)
-console.log('Fourth Word: ' + fourthWord)
-console.log('Fifth Word: ' + fifthWord)
+console.log('First Word: ' + exampleWord2)
+console.log('First Word: ' + secondWord2)
+console.log('Third Word: ' + thirdWord2)
+console.log('Fourth Word: ' + fourthWord2)
+console.log('Fifth Word: ' + fifthWord2)
