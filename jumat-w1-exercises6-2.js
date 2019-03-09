@@ -1,6 +1,7 @@
 //jumat-week1-exercises6-2
 //Melakukan Looping Menggunakan for
 
+console.log("----------Looping dengan for----------")
 var loopingOne = "- I Love coding"
 var loopingTwo = "- I will become fullstack developer"
 var angka = 0
