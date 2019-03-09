@@ -1,0 +1,98 @@
+1.
+Soal:
+Percepatan sebuah benda
+akan sebanding dengan gaya yang diberikan pada benda
+dan berbanding terbalik dengan massa benda.
+Arah percepatan benda sama
+dengan arah gaya total yang diberikan pada benda.
+
+sigmaF = m x a
+sigmaF: resultan gaya Newton
+m: massa benda(kg)
+a: percepatan benda (m/s2)
+
+menghitung resultan gaya pada sebuah mobil
+yang memiliki massa benda 600 kg
+dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+m = 600 kg
+a = 2 m/s2
+sigmaF?
+
+PSEUDOCODE:
+
+STORE "m" with number
+STORE "a" with number
+STORE "F" with number
+CALCULATE "m" times "a"
+SET "F" value with calculation result
+DISPLAY "F"
+
+2.
+Soal:
+Tahun Kabisat
+Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+:
+
+PSEUDOCODE:
+
+STORE "tahun" with number
+STORE "k" is "Kabisat"
+STORE "tk" is "Bukan Kabisat"
+IF "tahun" divided by 4 equals with 0 AND "tahun" divided by 100
+    not equals with 0
+  DISPLAY value of "k"
+ELSE IF "tahun" divided by 4 equals with 0 AND "tahun" divided by 100
+      equals with 0
+  DISPLAY value of "k"
+ELSE
+  DISPLAY value of "tk"
+
+3.
+Soal :
+Laundry Day
+Jumlah pakaian 20
+Mesin Cuci akan dinyalakan jika 20 pakaian sudah masuk
+
+PSEUDOCODE:
+
+STORE "pakaian" start from 1
+STORE "mesin" is "Mesin Cuci dinyalakan"
+STORE "mesin2" is "Masukan semua pakaian dahulu"
+STORE "jumlahLaundry" is 20
+for i equals 1 AND i less than 21 AND i++
+  IF "pakaian" equals "jumlahLaundry"
+    DISPLAY value of "mesin"
+  ELSE
+    DISPLAY value of "mesin2"
+
+
+
+
+4.
+Soal :
+Periksa Kuku
+Murid sebanyak 40
+jika panjang maka guru menghukum siswa
+jika tidak maka guru tidak menghukum siswa
+
+NB: "kuku" dan "kukuSiswa" inputan
+PSEUDOCODE:
+
+STORE "jumlahSiswa" is 40
+STORE "kukup" is "panjang"
+STORE "kukutp" is "tidak panjang"
+STORE "p" is "dihukum"
+STORE "tp" is "tidak dihukum"
+
+STORE "kuku" is "panjang"
+STORE "kukuSiswa" is 17
+
+FOR i equals 1 AND i LESS THAN 41 AND i++
+  DISPLAY "siswa ke: " i
+  IF i equals with the value of "kukuSiswa"
+    IF "kuku" equals with the value of "kukup"
+      DISPLAY "siswa ke " i and DISPLAY "p"
+    ELSE
+      DISPLAY "siswa ke " i and DISPLAY "p"
+  DISPLAY "siswa ke " i and DISPLAY "tp"
