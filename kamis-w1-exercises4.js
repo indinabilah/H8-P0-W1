@@ -6,39 +6,45 @@ var tahun = 2000
 
 switch(bulan){
   case 1:
-  console.log("tanggal lahir hari " + tanggal + " Januari " + tahun)
+  bulan = "Januari"
   break;
   case 2:
-  console.log("tanggal lahir hari " + tanggal + " Februari " + tahun)
+  bulan = "Februari"
   break;
   case 3:
-  console.log("tanggal lahir hari " + tanggal + " Maret " + tahun)
+  bulan = "Maret"
   break;
   case 4:
-  console.log("tanggal lahir hari " + tanggal + " April " + tahun)
+  bulan = "April"
   break;
   case 5:
-  console.log("tanggal lahir hari " + tanggal + " Mei " + tahun)
+  bulan = "Mei"
   break;
   case 6:
-  console.log("tanggal lahir hari " + tanggal + " Juni " + tahun)
+  bulan = "Juni"
   break;
   case 7:
-  console.log("tanggal lahir hari " + tanggal + " Juli " + tahun)
+  bulan  =  "Juli"
   break;
   case 8:
-  console.log("tanggal lahir hari " + tanggal + " Agustus " + tahun)
+  bulan = "Agustus"
   break;
   case 9:
-  console.log("September")
+  bulan = "September"
   break;
   case 10:
-  console.log("tanggal lahir hari " + tanggal + " Oktober " + tahun)
+  bulan = "Oktober"
   break;
   case 11:
-  console.log("tanggal lahir hari " + tanggal + " November " + tahun)
+  bulan = "November"
   break;
   case 12:
-  console.log("tanggal lahir hari " + tanggal + " Desember " + tahun)
+  bulan = "Desember"
   break;
+}
+
+if(bulan < 12 || tanggal < 31){
+  console.log(tanggal + ' ' + bulan + ' ' + tahun)
+}else{
+  console.log('bulan hanya sampai 12 dan tanggal hanya sampai 31')
 }
