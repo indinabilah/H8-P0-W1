@@ -1,6 +1,6 @@
 //kamis-w1-exercises4
 var tanggal = 2
-var bulan = 12
+var bulan = 13
 var tahun = 2000
 
 
@@ -43,7 +43,7 @@ switch(bulan){
   break;
 }
 
-if(bulan < 12 || tanggal < 31){
+if(bulan <= 12 && tanggal <= 31){
   console.log(tanggal + ' ' + bulan + ' ' + tahun)
 }else{
   console.log('bulan hanya sampai 12 dan tanggal hanya sampai 31')
